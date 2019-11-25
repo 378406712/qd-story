@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:200rpx;
+    justify-content: center;
+
+    align-items: center;
+}
+.content{
+  width: 40%;
+    height: 100rpx;
+    border: 1px solid red;
+    margin: 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100rpx;
+    color: #000;
+    font-size: 25px;
+}

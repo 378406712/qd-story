@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<button hidden="{{!flag}}" open-type="getUserInfo" bindgetuserinfo="login">
+未登录
+ </button>
+
+<view class="user" hidden="{{flag}}">
+欢迎:<text class="users">{{nickName}}</text>登录
+</view>
+
+<view class="lists" wx:for="{{myStory}}">
+<image  class="imgs" src="/pic/2.jpg"></image>
+<text bindtap="toDetail"  data-title="{{item.title}}" data-id="{{item.id}}">{{item.title}}</text>
+</view>

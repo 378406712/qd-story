@@ -1,0 +1,11 @@
+<swiper indicator-dots="true" autoplay="true" interval="1000" circular>
+  <swiper-item wx:for="{{imgArr}}">
+    <image class="pic" src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+
+<view class="time" >
+  {{num}}s  <text bindtap="jump">跳出广告</text>
+</view>
+
+<view class="welcome">欢迎来到故事汇</view>

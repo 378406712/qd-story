@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<view class="user">
+游客
+</view>
+<view class="lists" wx:for="{{listArr}}">
+<image  class="imgs" src="/pic/2.jpg"></image>
+<text bindtap="toDetail"  data-title="{{item.title}}" data-id="{{item.id}}">{{item.title}}</text>
+</view>

@@ -1,0 +1,10 @@
+<view class="main">
+
+
+  <view wx:for="{{typeArr}}" class="content" bindtap="toList" data-title="{{item.classify}}" data-id="{{item.classifyId}}">
+  {{item.classify}} 
+  </view>
+
+
+
+</view>
